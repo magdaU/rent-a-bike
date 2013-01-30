@@ -1,3 +1,5 @@
+package Rowery;
+
 public class RowerGorski extends Rower {
 	public RowerGorski(){
 		opis="Rower Górski tyn uniwersalny";

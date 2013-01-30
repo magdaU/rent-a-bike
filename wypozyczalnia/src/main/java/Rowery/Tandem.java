@@ -1,3 +1,5 @@
+package Rowery;
+
 public class Tandem extends Rower {
 	
 	public Tandem () {
