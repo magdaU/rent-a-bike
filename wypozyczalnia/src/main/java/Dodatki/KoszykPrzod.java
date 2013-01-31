@@ -3,6 +3,7 @@ import Rowery.Rower;
 
 public class KoszykPrzod extends Dodatki{
 	Rower rower;
+	private double koszt = 10.00;
 	
 	public KoszykPrzod(Rower rower){
 		this.rower=rower;
@@ -11,7 +12,7 @@ public class KoszykPrzod extends Dodatki{
 		return rower.pobierzOpis() + "Koszyk z przodu: " + (koszt() - rower.koszt()) + "\n";
 	}
 	public double koszt(){
-		return rower.koszt() + 10;
+		return rower.koszt() + koszt;
 	}
 
 }
